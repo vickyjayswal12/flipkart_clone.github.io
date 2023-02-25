@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: rgb(35, 112, 244);
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    
+    align-items: center;
+
+}
+img{
+    height: 20px;
+    width: 107px;
+    padding: 16px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 0 10px;
+    margin: 0 6px;
+    color: white;
+
+}
+#search{
+    /* margin: 0px 0px;
+    padding: 2px 48px; */
+    width: 309px;
+    height: 22px;
+    border-radius: 6px;
+}
+#btn{
+    /* background-color:rgb(35, 112, 244); */
+    border:1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+btn:hover {
+    background-color: rgb(35, 112, 244);
+}
+
+main {
+    width: 100vw;
+    /* height: 84vh; */
+    /* display: flex;
+    flex-direction: column; */
+}
+.container{
+    margin: -12px auto;
+    width: 80vw;
+}
+
+.mainphoto img{
+        height: 450px;
+        width: 1000px;
+        
+        
+}
+.card{
+    /* border: 2px solid black; */
+    display: flex;
+}
+#card
+{
+    height: 160px;
+    width: 160px;
+    padding: 5px 37px;
+    /* overflow: hidden; */
+    
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 160px;
+}
+footer {
+    background-color: rgb(35, 112, 244);
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* for responsiv */
+@media screen and (max-width:827px ){   /* when width come 500px then this event occur when can creat many this event*/
+    header
+    {
+        flex-direction: column;
+        width: 1195px;
+        height: 109px;
+        margin: 0 0 8px;
+    }
+    footer{
+        width: 1195px;
+
+    }
+    li{
+        margin: 7px;
+        padding: 6px;
+    }
+    img
+    {
+        margin: 4px;
+        padding: 0px;
+    }
+    body 
+    {
+        height: 100wh;
+        width: 100vw;
+    }
+}
